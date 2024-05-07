@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background: rgb(232,193,244);
+    background: linear-gradient(90deg, rgba(232,193,244,1) 0%, rgba(220,37,240,0.5578606442577031) 100%, rgba(0,212,255,1) 100%);
+}
+.navbar-brand{
+    margin-left:80px;
+    margin-top:20px;
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-img {
+    margin-left: 18px;
+    
+}
+
+.nav-item {
+    padding: 20px 25px;
+    margin-left: 600px;
+    display-block:flex;
+
+}
+.nav-item >a{
+    text-decoration:none ;
+    color: #000;
+    font-weight: 500;
+    font-size: larger;
+    padding: 15px;
+}
+    
+
+.nav-btn {
+    border: 2px solid purple;
+    background-color:
+    color: #000;
+    border-radius: 4px;
+    padding: 5px 30px;
+    margin-right: 8px;
+    margin-left:20px;
+    height: 47px;
+    background: linear-gradient(90deg, rgba(232,193,244,1) 0%, rgba(220,37,240,0.5578606442577031) 100%, rgba(0,212,255,0) 1000%);
+ 
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.main-para{
+    position: relative;
+    padding-left: 80px;
+    padding-bottom:150px;
+
+}
+.main-para >h1{
+
+    font-weight: 600;
+}
+    
+ span{
+    color: blueviolet;
+ }
+
+ .main-para >p{
+    color: #333;
+ }
+ .main-img{
+    margin-right: 50px;
+    margin-top:20px;
+ }
+
+ .main-btn {
+
+    width: Fixed (200px)px;
+    height: Fixed (50px)px;
+    top: 534px;
+    left: 108px;
+    padding: 5px 26px 5px 26px;
+    gap: 10px;
+    border-radius: 3px;
+    border: 1px solid purple;
+    opacity: 0px;
+    margin-top:15px;
+
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%); 
+
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .main-img {
+        margin-right: 0;
+    }
+
+    .main-para {
+        padding: 20px;
+    }
+
+    .main-btn {
+        width: 150px;
+        height: 40px;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+    }
+}
+
+
+
+ 
+
